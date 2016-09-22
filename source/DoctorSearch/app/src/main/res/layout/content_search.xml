@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+
+      tools:context="ase_karthik.doctorsearch.SearchActivity"
+    tools:showIn="@layout/activity_search">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your problem"
+        android:id="@+id/txt_Problem"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColorHint="@android:color/holo_blue_dark" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search"
+        android:onClick="searchText"
+        android:id="@+id/button_search"
+        android:textColor="@color/accent_material_light"
+        android:layout_below="@+id/button_logout"
+        android:layout_toRightOf="@+id/txt_Problem"
+        android:layout_toEndOf="@+id/txt_Problem" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:onClick="logout"
+        android:id="@+id/button_logout"
+        android:textColor="@color/design_textinput_error_color_light"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/txt_City"
+        android:layout_toEndOf="@+id/txt_City" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="F_Name:"
+        android:id="@+id/txt_F_Name"
+        android:layout_below="@+id/button_search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="L_Name:"
+        android:id="@+id/txt_L_Name"
+        android:layout_alignRight="@+id/button_search"
+        android:layout_alignEnd="@+id/button_search"
+        android:layout_alignBottom="@+id/txt_F_Name"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Street:"
+        android:id="@+id/txt_Street"
+        android:layout_below="@+id/txt_F_Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="City:"
+        android:id="@+id/txt_City"
+        android:layout_alignBaseline="@id/txt_Street"
+        android:layout_below="@+id/txt_L_Name"
+        android:layout_toRightOf="@+id/txt_L_Name"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="State:"
+        android:id="@+id/txt_State"
+        android:layout_below="@+id/txt_Street"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="ZipCode:"
+        android:id="@+id/txt_Zip"
+        android:layout_below="@+id/txt_City"
+        android:layout_toRightOf="@+id/txt_L_Name"
+        android:layout_toEndOf="@+id/txt_L_Name" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="FirstName"
+        android:id="@+id/FirstName"
+        android:layout_below="@+id/button_search"
+        android:layout_toRightOf="@+id/txt_F_Name"
+        android:layout_toEndOf="@+id/txt_F_Name"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="LastName"
+        android:id="@+id/LastName"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_below="@+id/button_search"
+        android:layout_toRightOf="@+id/txt_L_Name"
+        android:layout_toEndOf="@+id/txt_L_Name"
+        android:layout_alignBaseline="@+id/txt_L_Name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Street"
+        android:id="@+id/Street"
+        android:layout_below="@+id/txt_F_Name"
+        android:layout_toRightOf="@+id/txt_Street"
+        android:layout_toEndOf="@+id/txt_Street"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="City"
+        android:id="@+id/City"
+        android:layout_below="@id/LastName"
+        android:layout_above="@id/txt_Zip"
+        android:layout_toRightOf="@+id/txt_City"
+        android:layout_toEndOf="@+id/txt_City"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="State"
+        android:id="@+id/State"
+        android:layout_below="@+id/txt_Street"
+        android:layout_toRightOf="@+id/txt_State"
+        android:layout_toEndOf="@+id/txt_State"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Zip"
+        android:id="@+id/Zip"
+        android:layout_below="@+id/txt_City"
+        android:layout_toRightOf="@+id/txt_Zip"
+        android:layout_toEndOf="@+id/txt_Zip"
+        android:textColor="@android:color/holo_blue_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Rating:"
+        android:id="@+id/txt_rating"
+        android:layout_below="@+id/txt_State"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="rating"
+        android:id="@+id/rating"
+        android:layout_alignBottom="@+id/txt_rating"
+        android:layout_toRightOf="@+id/txt_rating"
+        android:layout_toEndOf="@+id/txt_rating"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Bio:"
+        android:id="@+id/txt_bio"
+        android:layout_below="@+id/txt_rating"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="bio"
+        android:id="@+id/bio"
+        android:layout_below="@+id/txt_rating"
+        android:layout_toRightOf="@+id/txt_bio"
+        android:layout_toEndOf="@+id/txt_bio"
+        android:textColor="@android:color/black"/>
+
+
+</RelativeLayout>
