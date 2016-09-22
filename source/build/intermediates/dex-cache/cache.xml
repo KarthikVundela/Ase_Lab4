@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7f5bc5a04e58c8466d4aa25e1e6a0222c7710110">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b7649ff70c065a15720ba9a8d96455129def98d6/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_9f16108efe066f20bd841077cf31c3175513ea47/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bc846fc801bf43f18412ca92d9256721c8d52223/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_a27fcfc0d13fb15a9e6f27d1460507d858863372/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="643c13e75965b4efdac24fceca261f736180c38a">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_92a72dce10e8d79a4018299853748fa52067b4b2/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_5504c4f86a19987ae54795d0489d1a3704fb3cf2/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_309ebc2311ac81ca4c4563075af69ab2ffdbc6d4/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fbce511225ebaa7a5a72da852051c1658ed8ac11/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_0b9fbd5901d9a6e1f5a74308a6e981067794c83f/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_b3ff8954aae38661b57a9c8a20e1464d60f9b3e0/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_8e35617313bc23c323cea56e220c7d5179d3cdb0/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e564e5ae9043063e71f8599c265204e86e13d48f/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_4af67c88841eb46806a7190d05723c47d1a4737b/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_7275bc55344ef2978efa9c4828fda9c686de848e/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ef1099b6043314a5cd973f67571a744e2c496018/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_7c7dce313cb3253b169cc17b817b26821de0b3cc/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_0f9bf9425111202a7b8fb75f28b8bd5c7da532b8/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_d36295ba814c26256e087f4306ff87cbf61af071/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_49f84e85004aef6522b12af8fe61eb0fd7d344c4/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_914afa756dcc8d09a9cb349e733d1ffec1ab9613/classes.dex" />
+    </item>
+    <item
+        jar="/home/karthik/Documents/DoctorSearch/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/karthik/Documents/DoctorSearch/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_95958fba9803a36b70f25cce65f27d393a66b28e/classes.dex" />
+    </item>
+
+</items>
